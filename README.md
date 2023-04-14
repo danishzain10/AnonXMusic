@@ -9,7 +9,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://graph.org/file/d3fe3c288fdb37a70ca09.jpg">
+  <img src="https://graph.org/file/b96d21fb840105c090613.jpg">
 </p>
 
 

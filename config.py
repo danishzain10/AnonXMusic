@@ -14,19 +14,19 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "kʌτ༐ʟا͢🇽ᖾɛɛ֟፝иʌ⏤")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝗦𝗣𝗔𝗥𝗧𝗔𝗡 𝗠𝗨𝗦𝗜𝗖")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "1356469075").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/golujha9936/AnonXMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/danishzain10/AnonXMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Shayri_ki_mahfil")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/About_Aryan_Owner")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Danishzain05")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Spartan_0005")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,14 +76,14 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/f96b19448d1a4981a010e.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/efb8c8104e9493e7e16dd.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/f96b19448d1a4981a010e.jpg",
+    "https://graph.org/file/efb8c8104e9493e7e16dd.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://graph.org/file/f96b19448d1a4981a010e.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/efb8c8104e9493e7e16dd.jpg"
 
 GLOBAL_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
 
@@ -95,7 +95,7 @@ TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 
-SOUNCLOUD_IMG_URL = "https://graph.org/file/f96b19448d1a4981a010e.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/efb8c8104e9493e7e16dd.jpg"
 
 YOUTUBE_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://graph.org/file/f96b19448d1a4981a010e.jpg"
+            PING_IMG_URL = "https://graph.org/file/efb8c8104e9493e7e16dd.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://graph.org/file/f96b19448d1a4981a010e.jpg"
+            START_IMG_URL = "https://graph.org/file/efb8c8104e9493e7e16dd.jpg"

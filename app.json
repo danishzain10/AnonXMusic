@@ -1,7 +1,7 @@
 {
-    "name": "kʌτ༐ʟا͢🇽ᖾɛɛ֟፝иʌ⏤",
+    "name": "𝗦𝗣𝗔𝗥𝗧𝗔𝗡 𝗠𝗨𝗦𝗜𝗖",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://graph.org/file/f96b19448d1a4981a010e.jpg",
+    "logo": "https://graph.org/file/efb8c8104e9493e7e16dd.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "25818842",
+        "value": "",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "882224f086b6bc26465e6a1df7de0dd1",
+        "value": "",
         "required": true
       },
       "BOT_TOKEN": {
@@ -34,7 +34,7 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "kʌτ༐ʟا͢🇽ᖾɛɛ֟፝иʌ⏤",
+        "value": "𝗦𝗣𝗔𝗥𝗧𝗔𝗡 𝗠𝗨𝗦𝗜𝗖",
         "required": true
       },
       "OWNER_ID": {
